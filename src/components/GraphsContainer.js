@@ -8,11 +8,12 @@ const Grid = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, minmax(0, 300px));
   grid-gap: 10px;
+  background-color: ${(props) => (props.color === 'white' ? 'white' : 'black')};
 `;
 
-const GraphsContainer = ({ colors }) => {
+const GraphsContainer = ({ colors, color }) => {
   return (
-    <Grid>
+    <Grid color={color}>
       <Graph title="Bar" colors={colors} />
       <Graph title="Column" colors={colors} />
       <Graph title="Donut" colors={colors} />

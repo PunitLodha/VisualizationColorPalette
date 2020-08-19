@@ -4,6 +4,7 @@ import PaletteSelector from './components/PaletteSelector';
 
 function App() {
   const [selected, setSelected] = useState('0');
+  const [color, setColor] = useState('white');
   const colors = [
     ['#65E0E0', '#69B2F8', '#6FD39B', '#F77EB9', '#FDB16D'],
     [
@@ -103,8 +104,14 @@ function App() {
   ];
   return (
     <div style={{ display: 'flex' }}>
-      <PaletteSelector selected={selected} colors={colors} setSelected={setSelected} />
-      <GraphsContainer selected={selected} colors={colors[Number(selected)]} />
+      <PaletteSelector
+        selected={selected}
+        colors={colors}
+        setSelected={setSelected}
+        color={color}
+        setColor={setColor}
+      />
+      <GraphsContainer selected={selected} colors={colors[Number(selected)]} color={color} />
     </div>
   );
 }
