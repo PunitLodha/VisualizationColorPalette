@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/VisualizationColorPalette/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/VisualizationColorPalette/static/js/main.4d55ca1a.chunk.js",
-    "main.js.map": "/VisualizationColorPalette/static/js/main.4d55ca1a.chunk.js.map",
+    "main.js": "/VisualizationColorPalette/static/js/main.ac8744de.chunk.js",
+    "main.js.map": "/VisualizationColorPalette/static/js/main.ac8744de.chunk.js.map",
     "runtime-main.js": "/VisualizationColorPalette/static/js/runtime-main.84da4e41.js",
     "runtime-main.js.map": "/VisualizationColorPalette/static/js/runtime-main.84da4e41.js.map",
     "static/js/2.d64e8a69.chunk.js": "/VisualizationColorPalette/static/js/2.d64e8a69.chunk.js",
     "static/js/2.d64e8a69.chunk.js.map": "/VisualizationColorPalette/static/js/2.d64e8a69.chunk.js.map",
     "index.html": "/VisualizationColorPalette/index.html",
-    "precache-manifest.504c1dabf4ea2b680ffe24376323556e.js": "/VisualizationColorPalette/precache-manifest.504c1dabf4ea2b680ffe24376323556e.js",
+    "precache-manifest.20c4cc7ad0e9ade0ac3663de56c6183d.js": "/VisualizationColorPalette/precache-manifest.20c4cc7ad0e9ade0ac3663de56c6183d.js",
     "service-worker.js": "/VisualizationColorPalette/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/VisualizationColorPalette/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.d64e8a69.chunk.js.LICENSE.txt": "/VisualizationColorPalette/static/js/2.d64e8a69.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.84da4e41.js",
     "static/js/2.d64e8a69.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4d55ca1a.chunk.js"
+    "static/js/main.ac8744de.chunk.js"
   ]
 }

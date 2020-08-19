@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b25fcef57b7e3d733e34f405d29a7a09",
+    "revision": "f65ad50c936a112f1c9c2955a9f4cdee",
     "url": "/VisualizationColorPalette/index.html"
   },
   {
-    "revision": "50b0999c5ebbdb24d2ee",
+    "revision": "418e956d04fbd108e668",
     "url": "/VisualizationColorPalette/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualizationColorPalette/static/js/2.d64e8a69.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50b0999c5ebbdb24d2ee",
-    "url": "/VisualizationColorPalette/static/js/main.4d55ca1a.chunk.js"
+    "revision": "418e956d04fbd108e668",
+    "url": "/VisualizationColorPalette/static/js/main.ac8744de.chunk.js"
   },
   {
     "revision": "9e5b759feb8eec4a0a99",
