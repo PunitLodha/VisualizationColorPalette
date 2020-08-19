@@ -24,7 +24,7 @@ const PaletteSelector = ({ colors, selected, setSelected }) => {
               <div
                 style={{
                   backgroundColor: colors[val][a],
-                  margin: '2px',
+                  margin: '1px',
                   width: '30px',
                   height: '30px',
                 }}
