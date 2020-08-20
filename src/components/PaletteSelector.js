@@ -4,7 +4,7 @@ const PaletteSelector = ({ colors, selected, setSelected, color, setColor }) => 
   const r = (s, e) => Array.from('x'.repeat(e - s), (_, i) => s + i);
   return (
     <form style={{ display: 'flex', flexDirection: 'column', padding: '20px' }}>
-      <form style={{ display: 'flex' }}>
+      <form style={{ display: 'flex', justifyContent: 'center' }}>
         <label style={{ margin: '15px' }}>
           <input
             type="radio"
