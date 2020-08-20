@@ -7,7 +7,7 @@ const Title = styled.div`
   font-size: px;
 `;
 
-const Graph = ({ title, colors }) => {
+const Graph = ({ title, colors, color }) => {
   const width = 550;
   const height = 250;
   const space = 10;
@@ -40,7 +40,13 @@ const Graph = ({ title, colors }) => {
 
   const donut = (
     <>
-      <circle className="donut-hole" cx={width / 2} cy={height / 2} r="100" fill="#fff" />
+      <circle
+        className="donut-hole"
+        cx={width / 2}
+        cy={height / 2}
+        r="100"
+        fill={color === 'white' ? 'white' : 'black'}
+      />
 
       {donuts.map((val, index) => (
         <circle

@@ -14,10 +14,10 @@ const Grid = styled.div`
 const GraphsContainer = ({ colors, color }) => {
   return (
     <Grid color={color}>
-      <Graph title="Bar" colors={colors} />
-      <Graph title="Column" colors={colors} />
-      <Graph title="Donut" colors={colors} />
-      <Graph title="Bubble" colors={colors} />
+      <Graph title="Bar" colors={colors} color={color} />
+      <Graph title="Column" colors={colors} color={color} />
+      <Graph title="Donut" colors={colors} color={color} />
+      <Graph title="Bubble" colors={colors} color={color} />
     </Grid>
   );
 };
